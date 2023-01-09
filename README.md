@@ -1,12 +1,5 @@
-# Recursion Assignment
+# Recursion Practice
 
-[1. Choose Problems](#1-choose-problems)  
-[2. Test/Implement Solutions](#2-testimplement-solutions)  
-[3. Solution Communication](#3-solution-communication)  
-
-
-## 1. Choose Problems
-You will choose one problem from each of the three problem sets.
 
 ### Problem Set 1
 
