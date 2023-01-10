@@ -12,14 +12,6 @@ count7(7) → 1
 count7(123) → 0
 ```
 
-#### count8
-`public static int count8(int intN)`  
-Given a non-negative `intN`, compute recursively (no loops) the count of the occurrences of 8 as a digit, except that an 8 with another 8 immediately to its left counts double, so 8818 yields 4. Note that mod (%) by 10 yields the rightmost digit (126 % 10 is 6), while divide (/) by 10 removes the rightmost digit (126 / 10 is 12).
-```
-count8(8) → 1
-count8(818) → 2
-count8(8818) → 4
-```
 
 #### countHi
 `public static int countHi(String str)`  
@@ -49,14 +41,6 @@ pairStar("xxyy") → "x*xy*y"
 pairStar("aaaa") → "a*a*a*a"
 ```
 
-#### endX
-`public static String endX(String str)`  
-Given a string, compute recursively a new string where all the lowercase 'x' chars have been moved to the end of the string.
-```
-endX("xxre") → "rexx"
-endX("xxhixx") → "hixxxx"
-endX("xhixhix") → "hihixxx"
-```
 
 ### Problem Set 3
 
@@ -86,24 +70,3 @@ strCopies("catcowcat", "cat", 2) → true
 strCopies("catcowcat", "cow", 2) → false
 strCopies("catcowcat", "cow", 1) → true
 ```
-
-## 2. Test/Implement Solutions
-Using the TDD **Red-Green-Refactor** process, implement your the solutions for your selected recursion problems.  For full process marks, be sure to log a commit after the each red, green, and refactor step. More specifically, log a commit after:
-* defining a test (which should fail on initial run)
-* editing your code to pass the test (first step into green state)
-* cleaning up your code (refactor).  
-
-Be sure to consider various cases to thoroughly verify your code.  Don't forget to consider *corner cases*.  
-
-It must be clear in your commit history that you are working through the TDD **Red-Green-Refactor** stages.  This makes it imperitavive to think through your solution before you start to code.
-
-
-## 3. Solution Communication
-Choose one of your solutions and create a video that explains how it works.
-* Level 3 - A code walk-through video where you talk about each line of your code and explain how it contributes to a working solution.
-* Level 4 - A whiteboard (digital i.e jamboard, or on paper) demonstration where you trace through your chosen problem and explain how your solution works. See my the recursion lesson video(s) and accompanying jamboard for an example.
-
-
-
-
-
